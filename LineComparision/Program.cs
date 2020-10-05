@@ -26,7 +26,6 @@ namespace LineComparision
                 Console.WriteLine("First line is longer than the second one");
             else
                 Console.WriteLine("First line is sorter than the second one");
-
             return;
         }
         static void StorePoints(ref int[] p1, ref int[] p2)
