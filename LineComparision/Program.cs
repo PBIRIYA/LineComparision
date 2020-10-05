@@ -19,7 +19,7 @@ namespace LineComparision
             StorePoints(ref line2Start, ref line2End);
             Line line2 = new Line(line2Start, line2End);
             Console.WriteLine("Length of first line is " + line1.Length);
-            Console.WriteLine("Length of first line is " + line2.Length);
+            Console.WriteLine("Length of second line is " + line2.Length);
             if (line1.Length.CompareTo(line2.Length) == 0)
                 Console.WriteLine("Both lines have equal length");
             else if (line1.Length.CompareTo(line2.Length) > 0)

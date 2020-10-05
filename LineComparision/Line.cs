@@ -14,7 +14,7 @@ namespace LineComparision
             this._startPoint = StartPoint;
             this._endPoint = EndPoint;
         }
-        public Point StartPoint { get => _startPoint; set => _endPoint = value; }
+        public Point StartPoint { get => _startPoint; set => _startPoint = value; }
         public Point EndPoint { get => _endPoint; set => _endPoint = value; }
         public double Length
         {
