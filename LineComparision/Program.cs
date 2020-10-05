@@ -24,7 +24,6 @@ namespace LineComparision
                 Console.WriteLine("Both lines have equal length");
             else
                 Console.WriteLine("Both lines have unequal length");
-
             return;
         }
         static void StorePoints(ref int[] p1, ref int[] p2)
